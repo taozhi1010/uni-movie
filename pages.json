@@ -1,0 +1,358 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+		    "path" : "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+            "path" : "pages/invest/invest",
+			"style" : {
+				"navigationBarTitleText": "我要投资"
+			}
+        },
+		{
+            "path" : "pages/me/me",
+			"style" : {
+				"navigationBarTitleText": "个人中心"
+			}
+        },
+		{
+            "path" : "pages/about/about",
+			"style" : {
+				"navigationBarTitleText": "关于我们"
+			}
+        }
+        ,{
+            "path" : "pages/login/login",
+			"style" : {
+				"navigationBarTitleText": "登陆"
+			}
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" : {
+				"navigationBarTitleText": "注册"
+			}
+        }
+        ,{
+            "path" : "pages/project/project",
+            "style" : {
+				"navigationBarTitleText": "项目详情"
+			}
+        }
+        ,{
+            "path" : "pages/personal/personal",
+            "style" : {
+				"navigationBarTitleText": "个人中心"
+			}
+        }
+        ,{
+            "path" : "components/app-item/app-item",
+            "style" : {}
+        }
+		,{
+		    "path" : "components/app-item-input/app-item-input",
+		    "style" : {}
+		}
+        ,{
+            "path" : "pages/charge/charge",
+            "style" : {
+				"navigationBarTitleText": "我要充值"
+			}
+        }
+        ,{
+            "path" : "pages/capitalflow/capitalflow",
+            "style" : {
+				"navigationBarTitleText": "资金流水记录"
+			}
+        }
+        ,{
+            "path" : "pages/pay/pay",
+            "style" : {
+				"navigationBarTitleText": "支付页面"
+			}
+        }
+        ,{
+            "path" : "pages/cashout/cashout",
+            "style" : {
+				"navigationBarTitleText": "我要提现"
+			}
+        }
+        ,{
+            "path" : "pages/investrecord/investrecord",
+            "style" : {
+				"navigationBarTitleText": "我的投资"
+			}
+        }
+        ,{
+            "path" : "pages/financialRating/financialRating",
+            "style" : {
+				"navigationBarTitleText": "会员等级"
+			}
+        }
+        ,{
+            "path" : "pages/paymentMethod/paymentMethod",
+            "style" : {
+				"navigationBarTitleText": "支付方式"
+			}
+        }
+        ,{
+            "path" : "pages/enterpriseQualification/enterpriseQualification",
+            "style" : {
+				"navigationBarTitleText": "公司资质"
+			}
+        }
+        ,{
+            "path" : "pages/contentCheck/contentCheck",
+            "style" : {
+				"navigationBarTitleText": "内容查看"
+			}
+        }
+        ,{
+            "path" : "pages/userhelp/userhelp",
+            "style" : {
+				"navigationBarTitleText": "新手帮助"
+			}
+        }
+        ,{
+            "path" : "pages/aboutUs/aboutUs",
+            "style" : {
+				"navigationBarTitleText": "关于我们"
+			}
+        }
+        ,{
+            "path" : "pages/frequentlyAskedQuestions/frequentlyAskedQuestions",
+            "style" : {
+				"navigationBarTitleText": "常见问题"
+			}
+        }
+        ,{
+            "path" : "pages/banks/banks",
+            "style" : {
+				"navigationBarTitleText": "我的银行卡"
+			}
+        }
+        ,{
+            "path" : "pages/certification/certification",
+            "style" : {
+				"navigationBarTitleText": "实名认证"
+			}
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" : {
+				"navigationBarTitleText": "设置"
+			}
+        },
+		{
+            "path" : "pages/chat/chat",
+            "style" : {}
+        },
+		{
+            "path" : "pages/chargeCode/chargeCode",
+            "style" : {
+				"navigationBarTitleText": "支付信息"
+			}
+        },
+		{
+            "path" : "pages/mailbox/mailbox",
+            "style" : {
+				"navigationBarTitleText": "收件箱"
+			}
+        },
+		{
+            "path" : "pages/customerService/customerService",
+			"style": {
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/contentLook/contentLook",
+            "style" : {
+				"navigationBarTitleText": "内容查看"
+			}
+        }
+        ,{
+            "path" : "pages/revenueModel/revenueModel",
+            "style" : {
+				"navigationBarTitleText": "收益模式"
+			}
+        }
+        ,{
+            "path" : "pages/companyIntroduction/companyIntroduction",
+            "style" : {
+				"navigationBarTitleText": "公司介绍"
+			}
+        }
+		,{
+		    "path" : "pages/loginPassword/loginPassword",
+		    "style" : {
+				"navigationBarTitleText": "修改登陆密码"
+			}
+		}
+		,{
+		    "path" : "pages/payPasswrod/payPasswrod",
+		    "style" : {
+				"navigationBarTitleText": "修改支付密码"
+			}
+		}
+        ,{
+            "path" : "pages/yuebao/yuebao",
+		    "style" : {
+				"navigationBarTitleText": "零钱袋"
+			}
+        }
+        ,{
+            "path" : "pages/mailboxDetails/mailboxDetails",
+		    "style" : {
+				"navigationBarTitleText": "邮件详情"
+			}
+        }
+        ,{
+            "path" : "pages/downApp/downApp",
+			"style": {
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+                    "path" : "pages/webview/webview",
+              "style" : {
+            "navigationBarTitleText": ""
+           }
+                }
+		,{
+		    "path" : "pages/inviteCourtesy/inviteCourtesy",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+        ,{
+            "path" : "pages/withdrawalsRecord/withdrawalsRecord",
+		    "style" : {
+				"navigationBarTitleText": "提现记录"
+			}
+        }
+        ,{
+            "path" : "pages/chargeRecord/chargeRecord",
+		    "style" : {
+				"navigationBarTitleText": "充值记录"
+			}
+        }
+        ,{
+            "path" : "pages/teamList/teamList",
+		    "style" : {
+				"navigationBarTitleText": "我的团队"
+			}
+        }
+        ,{
+            "path" : "pages/agree/agree",
+		    "style" : {
+				"navigationBarTitleText": "注册协议"
+			}
+        }
+        ,{
+            "path" : "pages/Xieyi/Xieyi",
+		    "style" : {
+				"navigationBarTitleText": "电子合同"
+			}
+        }
+        ,{
+            "path" : "pages/projectInfo/projectInfo",
+		    "style" : {
+				"navigationBarTitleText": "项目详情"
+			}
+        }
+        ,{
+            "path" : "pages/forgetPassword/forgetPassword",
+		    "style" : {
+				"navigationBarTitleText": "修改密码"
+			}
+        }
+        ,{
+            "path" : "pages/jfshop/jfshop",
+		    "style" : {
+				"navigationBarTitleText": "积分商城"
+			}
+        },{
+            "path" : "pages/jfshopRecord/jfshopRecord",
+		    "style" : {
+				"navigationBarTitleText": "积分兑换记录"
+			}
+			
+        },{
+            "path" : "pages/customerService/customerService",
+            "style" : {
+				"navigationBarTitleText": "在线客服"
+   }
+        }
+		
+		
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "5G云创",
+		"navigationBarBackgroundColor": "#d81e06",
+		"backgroundColor": "#FFFFFF"
+	},
+	"splashscreen" : {
+	    "alwaysShowBeforeRender" : false
+	},
+	// "tabBar":{
+	// 	"selectedColor": "#d81e06",
+	// 	"borderStyle": "black",
+	// 	"backgroundColor": "#ffffff",
+	// 	"list": [
+	// 		{
+	// 			"pagePath": "pages/home/home",
+	// 			"text": "首页",
+	// 			"iconPath": "static/home.png",
+	// 			"selectedIconPath": "static/home-selected.png"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/invest/invest",
+	// 			"text": "投资",
+	// 			"iconPath": "static/invest.png",
+	// 			"selectedIconPath": "static/invest-selected.png"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/me/me",
+	// 			"text": "个人中心",
+	// 			"iconPath": "static/me.png",
+	// 			"selectedIconPath": "static/me-selected.png"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/about/about",
+	// 			"text": "帮助",
+	// 			"iconPath": "static/about.png",
+	// 			"selectedIconPath": "static/about-selected.png"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/customerService/customerService",
+	// 			"text": "在线客服",
+	// 			"iconPath": "static/kefu.png",
+	// 			"selectedIconPath": "static/kefu-selected.png"
+	// 		}
+	// 	]
+	// },
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
